@@ -1,0 +1,81 @@
+@charset "utf-8";
+.main-pro{
+	width: 1000px;
+	margin: 0 auto;
+}
+.row-pro{
+	margin-top: 20px;
+	background: #f3f3f5;
+}
+.pro-bg{
+	padding: 16px 20px;
+}
+.pro-bg a{
+	color: #999999;
+	font-size: 15px;
+	margin-right: 50px;
+}
+.pro-bg a:hover{
+	color: #2498FF;
+}
+.table-pro{
+	border-top: 5px solid #2498FF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.table-top{
+}
+.table-pro table tr td{
+	border: 1px solid #E6E6E6;
+	border-top: 0px solid #E6E6E6;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+.table-top tr.colorblue td{
+	color: #2498FF;
+	width: 200px;
+}
+.data_css{
+	padding-left:40px;
+	+padding-left:100px;
+}
+.table-pro table tr td.high{
+	color: #cc0000;
+}
+.table-pro table tr td.low{
+	color: #19a319;
+}
+.icon img{
+	float: left;
+	margin: 5px 5px 5px 20px;
+}
+.table-pro table tr td.icon div{
+
+	padding-right: 10px;
+	text-align:left;
+	height: 40px;
+	line-height: 40px;
+}
+.table-pro table tr.bg td{
+	background: #f9f9f9;
+}
+.table-pro table tr td.nobg{
+	background: none;
+}
+
+.table_top1{
+	width:1000px;
+}
+.table_top1 .city{
+	width:165px;
+}
+.table_top1 .city1{
+	width:165px;
+}
+.table_top1 .icon{
+	width:165px;
+}
+
+

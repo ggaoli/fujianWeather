@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,em,button,img{margin:0;padding:0;}
+body {
+	border: 0;
+	color: #333;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size:12px;
+	cursor: auto;
+	background: #fff;
+	/*font-family: "宋体", serif;*/
+	font-family: "微软雅黑", serif;
+	min-width: 1000px;
+	width: 100%;
+}
+img {
+	border:0;
+	height:auto;
+}
+ul, ol, li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a {
+	color:#333;
+	text-decoration:none;
+	cursor:pointer;
+	border:0;
+}
+a:hover {
+	color:#2498ff;
+	/*text-decoration:underline;*/
+}
+ td, select, input, textarea {
+	color:#333;
+	 font-family: "微软雅黑", "Lucida Grande", Tahoma, serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "微软雅黑", "Open Sans", serif;
+}
+table{
+	border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+.clearfix:after{ content:""; height:0; visibility:hidden; display:block; clear:both;}
+.clearfix{ zoom:1;}
+
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+.tcenter{
+	text-align:center;
+}
+em{
+	color:#d10000;
+	font-style:normal;
+}
+.Red{
+	color:#d10000;
+}
+.Gray{
+	color:#999;
+}
+.Black{
+	color:#333;
+}
+.Blue{
+	color:#2498ff;
+}
+
+/*标签*/
+.label{
+	width: auto;
+	display: inline-block;
+	padding:4px 8px;
+	color: white;
+	font-size:12px;
+	line-height: 1.2;
+}
+.alert{
+	background: #d10000;
+}
+.warning{
+	background: #ff7e00;
+}
+.secondary{
+	background: #eeeeee;
+	color: #888 !important;
+	cursor: not-allowed;
+}
+
+
+
+
+/*****************footer*********************/
+.footer {
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	/*margin-top: 10px;*/
+	background:url(../images/footer-bg.png);
+	color: #B7B7B7;
+}
+.foot-link {
+	padding: 10px 0;
+}
+.foot-link a {
+	padding: 0 12px;
+	line-height: 25px;
+}
+.copyright {
+	padding: 15px 0 15px 0;
+}
+.footer .subnav {
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	padding-top: 15px;
+}
+.footer .subnav ul {
+	width: 545px;
+	margin: 0 auto;
+}
+.footer .subnav li {
+	float: left;
+	line-height: 16px;
+	border-right: 1px solid #B7B7B7;
+}
+.footer .subnav li.border0{
+	border-right: 0px;
+}
+.footer .subnav a {
+	font-size: 12px;
+	color: #fff;
+	display: block;
+	width: 90px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.footer .subnav a:hover {
+	color:#2498FF;
+}
+.copyright {
+	font-size:12px;
+	line-height: 2;
+}
+

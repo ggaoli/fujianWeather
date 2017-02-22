@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tempSuite>
+	<tempSuiteName>党员e家_天气</tempSuiteName>
+	<tempSuiteDesc>党员e家_天气</tempSuiteDesc>
+	<tempSuiteVersion>1.0</tempSuiteVersion>
+	<tempSuiteAuthor>gl</tempSuiteAuthor>
+	<template>
+		<tempName><![CDATA[首页]]></tempName>
+		<tempType>index</tempType>
+		<tempExt><![CDATA[jsp]]></tempExt>
+		<fileName><![CDATA[index.html]]></fileName>
+	</template>
+	<template>
+		<tempName><![CDATA[空气指数]]></tempName>
+		<tempType>index</tempType>
+		<tempExt><![CDATA[jsp]]></tempExt>
+		<fileName><![CDATA[aqi.html]]></fileName>
+	</template>
+	<template>
+		<tempName><![CDATA[城市天气]]></tempName>
+		<tempType>index</tempType>
+		<tempExt><![CDATA[jsp]]></tempExt>
+		<fileName><![CDATA[province.html]]></fileName>
+	</template>
+	<template>
+		<tempName><![CDATA[公共页]]></tempName>
+		<tempType>others</tempType>
+		<tempExt><![CDATA[jsp]]></tempExt>
+		<fileName><![CDATA[include.html]]></fileName>
+	</template>
+</tempSuite>

@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh" class="no-js">
+<head>
+	<title>党员e家-e家天气</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<meta http-equiv="Content-Language" content="zh-cn" />
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="style/master.css">
+	<link rel="stylesheet" type="text/css" href="style/layout.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="stylesheet" type="text/css" href="style/aqi.css">
+	<script src="javascript/jquery-1.9.1.min.js"></script>
+	<script src="javascript/common.js"></script>
+	<script src="javascript/tab.exam.js"></script>
+</head>
+<body>
+<div id="layout">
+	<div class="wrapper" id="frame_wrapper">
+		<div class="header" id="frame_header" include="include.html">
+			<div class="top_tool" id="frame_top_tool" >
+				<div class="row top_row" id="data_top_tool">
+					<div class="tool_l">
+						<div class="clearfix">
+							<div class="others_info"><a href="#" target="_blank"><i class="i1 i-font"></i>党员e家首页</a></div>
+							<div class="others_info"><a href="#" target="_blank"><i class="i2 i-font"></i>掌上e家</a></div>
+						</div>
+					</div>
+					<div class="tool_r">
+						<div class="tool_others_info">
+							<div class="others_info"><a href="#" target="_blank"><i class="i4 i-font"></i>帮助中心</a></div>
+							<div class="others_info"><a href="#" target="_blank"><i class="i5 i-font"></i>网站地图</a></div>
+						</div>
+						<div class="login_info" id="data_login">
+							<div class="fleft no_login" style="display:none;">
+								<div class="login-btn">
+									<a href="#" target="_blank" class="loign_on">登录</a>
+								</div>
+								<div class="registered-btn">
+									<a href="#" target="_blank">免费注册</a>
+								</div>
+							</div>
+							<div class="top_login"  >
+								<div class="fleft">欢迎您，</div>
+								<div class="user_info drop">
+									<div class="user_name drop_nav">
+										<a href="#" target="_blank">
+											福州支部管理员<i class="drop_arrow i-font"></i>
+										</a>
+									</div>
+									<div class="user_info_list drop_con">
+										<em></em>
+										<ul>
+											<li><a href="#" target="_blank">个人中心</a></li>
+											<li><a href="#" target="_blank">我的活动</a></li>
+											<li><a href="#" target="_blank">我参与的</a></li>
+											<li><a href="#" target="_blank">我发布的</a></li>
+											<li><a href="#" target="_blank">个人设置</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="fleft"><a href="#" target="_blank">退出</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="header_top" id="frame_top">
+                <div class="row clearfix" id="frame_top_row">
+                    <div class="logo" id="data_logo"><a class="png" href="#" target="_blank"><h1>党员e家-福建省党员教育管理综合服务平台</h1><h2>e家天气</h2></a></div>
+                    <div class="nav" id="data_nav">
+                        <ul>
+                            <li><a href="#">首页</a></li>
+                            <li><a href="#">省内</a></li>
+                        </ul>
+                    </div>
+					<div class="search" id="data_search">
+						<form action="#" target="_blank">
+							<input name="act" style="display:none;" value="search"/>
+							<input name="q" class="inp" id="topsearch" type="text" placeholder="输入搜索内容" accesskey="s" title="输入搜索内容" x-webkit-speech="" x-webkit-grammar="builtin:translate" lang="zh-CN">
+							<input type="submit" class="bt" value="">
+						</form>
+					</div>
+                </div>
+            </div>
+			<div class="row clearfix position-r" id="frame_seach_row1">
+				<div id="frame_citySearchCon"><ul id="citySearchCon"></ul></div>
+				<div id="frame_citySortCon" class="citySortCon">
+					<div class="tab-rec-1" id="mod_tab-rec-1">
+						<div class="tab">
+							<ul class="clearfix" id="citySort">
+								<li class="on"> <a href="#" >A-I</a></li>
+								<li> <a href="#" >J-R</a> </li>
+								<li> <a href="#" >S-Z</a> </li>
+							</ul>
+						</div>
+						<div class="modcon clearfix ">
+							<div id="frame_sort_dttab_con_1" style="display:block;"   >
+								<div id="data_sortCity1" class="sortCity-list">
+									<ul class="clearfix">
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+									</ul>
+
+								</div>
+							</div>
+							<div id="frame_sort_dttab_con_2" style="display:none;">
+								<div id="data_sortCity2" class="sortCity-list">
+									<ul class="clearfix">
+										<li><a>安溪1</a></li>
+										<li><a>大田1</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+									</ul>
+
+								</div>
+							</div>
+							<div id="frame_sort_dttab_con_3" style="display:none;">
+								<div id="data_sortCity3" class="sortCity-list">
+									<ul class="clearfix">
+										<li><a>安溪2</a></li>
+										<li><a>大田2</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="main-api" id="frame_main_api" >
+
+			<div class="clearfix" id="frame_row1">
+				<div class="api-l" id="frame_row1_l">
+					<div class="api-loc-l" id="data_apiloc">
+						<span id="loc-city" class="loc"><a href="province.html"></a></span>
+						<div class="clearfix">
+							<span class="fleft">实时空气质量指数</span>
+							<span class="fright" id="now-time"></span>
+						</div>
+					</div>
+					<div class="clearfix api-num-box color-1" id="data_apinum" >
+						<div class="fleft"><span class="fontsize44" id="aqi-value"></span><span class="fontsize14" id="aqi-quality"></span></div>
+						<div class="share">
+							<a class="fenxiang">分享</a>
+							<div class="share-box">
+								<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+								<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+							</div>
+						</div>
+					</div>
+					<div id="data_table">
+						<table>
+							<tr><td>主要污染物</td><td>浓度（μg/m3）</td></tr>
+							<tr><td>PM2.5</td><td id="pm25-value"></td></tr>
+							<tr><td>PM10</td><td id="pm10-value"></td></tr>
+							<tr><td>SO2</td><td id="so2-value"></td></tr>
+							<tr><td>NO2</td><td id="no2-value"></td></tr>
+
+
+
+						</table>
+					</div>
+				</div>
+				<div class="api-r" id="frame_row1_r">
+					<div class="aqi-box" id="mod_aqi">
+						<div class="modhead">
+							<div class="modtitle"><a href="#" target="_blank">空气质量指数（AQI）逐时显示</a></div>
+							<div class="modmore"></div>
+						</div>
+						<div class="modcon">
+							<div class="e_chart" id="data_chart">
+								<div class="e_chart_con" id="activation_chart"></div>
+								<div class="bottom-bg">
+									<ul class="clearfix">
+										<li>
+											<span class="des">优</span>
+											<span class="col-box color-1"></span>
+											<div class="lev-detail detail-1">
+												<div class="title">
+													<b>空气状况: 优</b>
+													<span>空气质量指数: 0-50</span>
+													<span>等级:1级</span>
+												</div>
+												<div class="des">
+													出行提示: 正常活动
+												</div>
+												<div class="arrow"></div>
+											</div>
+										</li>
+										<li>
+											<span class="des">良</span>
+											<span class="col-box color-2"></span>
+											<div class="lev-detail detail-2">
+												<div class="title">
+													<b>空气状况: 良</b>
+													<span>空气质量指数: 51-100</span>
+													<span>等级:2级</span>
+												</div>
+												<div class="des">
+													出行提示: 可以接受的，除极少数对某种污染物特别敏感的人以外，对公众健康没有危害
+												</div>
+												<div class="arrow"></div>
+											</div>
+										</li>
+										<li>
+											<span class="des">轻度污染</span>
+											<span class="col-box color-3"></span>
+											<div class="lev-detail detail-3">
+												<div class="title">
+													<b>空气状况: 轻度污染</b>
+													<span>空气质量指数: 101-150</span>
+													<span>等级:3级</span>
+												</div>
+												<div class="des">
+													出行提示: 易感人群症状有轻度加剧，健康人群出现刺激症状，心脏病和呼吸道疾病患者应减少
+													体力消耗和户外活动
+												</div>
+												<div class="arrow"></div>
+											</div>
+										</li>
+										<li>
+											<span class="des">中度污染</span>
+											<span class="col-box color-4"></span>
+											<div class="lev-detail detail-4">
+												<div class="title">
+													<b>空气状况: 中度污染</b>
+													<span>空气质量指数: 151-200</span>
+													<span>等级:4级</span>
+												</div>
+												<div class="des">
+													出行提示: 对污染物比较敏感的人群，例如儿童和老年人、呼吸道疾病或心脏病患者，以及喜爱户外活动的人，他们的健康状况会受到
+													影响，但对健康人群基本没有影响
+												</div>
+												<div class="arrow"></div>
+											</div>
+										</li>
+										<li>
+											<span class="des">重度污染</span>
+											<span class="col-box color-5"></span>
+											<div class="lev-detail detail-5">
+												<div class="title">
+													<b>空气状况: 重度污染</b>
+													<span>空气质量指数: 201-300</span>
+													<span>等级:5级</span>
+												</div>
+												<div class="des">
+													出行提示: 心脏病和肺病患者症状显著加剧，运动耐受力降低，健康人群中普遍出现症状。老年人和心肝病、
+													肺病患者应减少体力活动
+												</div>
+												<div class="arrow"></div>
+											</div>
+										</li>
+										<li>
+											<span class="des">严重污染</span>
+											<span class="col-box color-6"></span>
+											<div class="lev-detail detail-6">
+												<div class="title">
+													<b>空气状况: 严重污染</b>
+													<span>空气质量指数: 0-50</span>
+													<span>等级:6级</span>
+												</div>
+												<div class="des">
+													出行提示: 健康人运动耐受力降低，有明显强烈症状，提前出现某些疾病。老年人和病人应当留在室内，避免体力消耗，
+													一般人应尽量减少户外活动
+												</div>
+												<div class="arrow"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="clearfix" id="frame_row2">
+				<div class="cityaqi-box" id="mod_cityaqi">
+					<div class="modhead">
+						<div class="modtitle"><a href="#" target="_blank">福建省最新空气质量</a></div>
+						<div class="modmore"></div>
+					</div>
+					<div class="modcon">
+						<div class="cityaqi" id="data_cityaqi">	
+							<ul id="city-list">
+								<li id="nanping">
+									<span class="name"></span>
+									<span class="value"></span>
+								</li>
+								<li id="sanming">
+									<span class="name"></span>
+									<span class="value"></span>
+								</li>
+								<li id="longyan">
+									<span class="name"></span>
+									<span class="value"></span>
+								</li>
+								<li id="ningde">
+									<span class="name"></span>
+									<span class="value"></span>
+								</li>
+								<li id="fuzhou">
+									<span class="name"></span>
+									<span class="value"></span>
+								</li>
+								<li id="putian">
+									<span class="name"></span>
+									<span class="value"></span>
+								</li>
+								<li id="quanzhou">
+									<span class="name"></span>
+									<span class="value"></span>
+								</li>
+								<li id="xiamen">
+									<span class="name"></span>
+									<span class="value"></span>
+								</li>
+								<li id="zhangzhou">
+									<span class="name"></span>
+									<span class="value"></span>
+								</li>
+								<li id="pingtan">
+									<span class="name"></span>
+									<span class="value"></span>
+								</li>
+							</ul>
+						</div>
+					</div>				
+				</div>
+			</div>
+			<div class="clearfix" id="frame_row3">
+				<div class="api-row3-l" id="frame_row3_l">
+					<div class="clearfix ranktitle-box" id="data_ranktitle">
+						<div class="ranktitle-l">
+							福建省空气质量22时排名（最优）
+						</div>
+						<div class="ranktitle-r">
+							<select>
+							  <option value ="volvo">00时</option>
+							  <option value ="saab">01时</option>
+							  <option value="opel">02时</option>
+							  <option value="audi">03时</option>
+							  <option value ="volvo">04时</option>
+							  <option value ="saab">05时</option>
+							  <option value="opel">06时</option>
+							  <option value="audi">07时</option>
+							  <option value ="volvo">08时</option>
+							  <option value ="saab">09时</option>
+							  <option value="opel">10时</option>
+							  <option value="audi">11时</option>
+							  <option value ="volvo">12时</option>
+							  <option value ="saab">13时</option>
+							  <option value="opel">14时</option>
+							  <option value="audi">15时</option>
+							  <option value ="volvo">16时</option>
+							  <option value ="saab">17时</option>
+							  <option value="opel">18时</option>
+							  <option value="audi">19时</option>
+							  <option value ="volvo">20时</option>
+							  <option value ="saab">21时</option>
+							  <option value="opel">22时</option>
+							  <option value="audi">23时</option>
+							</select>
+						</div>
+					</div>
+					<div class="rank-box" id="data_rank">
+						<table>
+							<tr class="table-title">
+								<td>排名</td>
+								<td>城市</td>
+								<td>质量指数</td>
+								<td>质量状况</td>
+							</tr>
+							<tr>
+								<td class="rank1">1</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr class="bg">
+								<td class="rank2">2</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr>
+								<td class="rank3">3</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr class="bg">
+								<td class="rank4">4</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr>
+								<td class="rank4">5</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr class="bg">
+								<td class="rank4">6</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr>
+								<td class="rank4">7</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr class="bg">
+								<td class="rank4">8</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr>
+								<td class="rank4">9</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="api-row3-r" id="frame_row3_r">
+					<div class="clearfix ranktitle-box" id="data_ranktitle1">
+						<div class="ranktitle-l">
+							福建省空气质量22时排名（最差）
+						</div>
+						<div class="ranktitle-r">
+							<select>
+							  <option value ="volvo">00时</option>
+							  <option value ="saab">01时</option>
+							  <option value="opel">02时</option>
+							  <option value="audi">03时</option>
+							  <option value="audi">04时</option>
+							  <option value="audi">05时</option>
+							  <option value="audi">06时</option>
+							  <option value="audi">07时</option>
+							  <option value="audi">08时</option>
+							  <option value="audi">09时</option>
+							  <option value="audi">10时</option>
+							  <option value="audi">11时</option>
+							  <option value="audi">12时</option>
+							  <option value="audi">13时</option>
+							  <option value="audi">14时</option>
+							  <option value="audi">15时</option>
+							  <option value="audi">16时</option>
+							  <option value="audi">17时</option>
+							  <option value="audi">18时</option>
+							  <option value="audi">19时</option>
+							  <option value="audi">20时</option>
+							  <option value="audi">21时</option>
+							  <option value="audi">22时</option>
+							  <option value="audi">23时</option>		
+							</select>
+						</div>
+					</div>
+					<div class="rank-box" id="data_rank1">
+						<table>
+							<tr class="table-title">
+								<td>排名</td>
+								<td>城市</td>
+								<td>质量指数</td>
+								<td>质量状况</td>
+							</tr>
+							<tr>
+								<td class="rank1">1</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr class="bg">
+								<td class="rank2">2</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr>
+								<td class="rank3">3</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr class="bg">
+								<td class="rank4">4</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr>
+								<td class="rank4">5</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr class="bg">
+								<td class="rank4">6</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr>
+								<td class="rank4">7</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr class="bg">
+								<td class="rank4">8</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+							<tr>
+								<td class="rank4">9</td>
+								<td>福州市</td>
+								<td>7</td>
+								<td>优</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="frame_more_js1">
+			<div id="data_more_js1">
+				<!--echart js-->
+				<script src="javascript/echarts.min.js"></script>
+				<script src="javascript/pinyin.js"></script>
+				<script src="javascript/aqi.js"></script>
+			</div>
+		</div>
+		<div class="footer clearfix" id="frame_footer" include="include.html">
+			<div id="data_copyright" class="copyright row">
+				<p>福建省党员教育管理综合服务平台</p>
+				<p>版权所有 © 2010-2016 闽ICP备10202482号-3</p>
+			</div>
+			<div id="data_javascript">
+				<!--[if IE 6]>
+					<script src="javascript/DD_belatedPNG.js"></script> 
+					<script>
+						DD_belatedPNG.fix('.png');
+						DD_belatedPNG.fix('.i-font,.channel .modhead .modtitle,.bottom-bg,.loc');
+					</script>
+				<![endif]-->
+			</div>
+        </div>
+	</div>
+</div>
+
+</body>
+</html>

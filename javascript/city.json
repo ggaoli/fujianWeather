@@ -1,0 +1,23 @@
+{
+  "errNum": 0,
+  "errMsg": "success",
+  "retData": {
+    "city": "福州",
+    "pinyin": "fuzhou",
+    "citycode": "101230101",
+    "date": "16-07-14",
+    "time": "08:00",
+    "postCode": "350000",
+    "longitude": 119.303,
+    "latitude": 26.071,
+    "altitude": "85",
+    "weather": "小雪",
+    "temp": "36",
+    "l_tmp": "27",
+    "h_tmp": "36",
+    "WD": "南风",
+    "WS": "3-4级(10~17km/h)",
+    "sunrise": "05:26",
+    "sunset": "18:57"
+  }
+}

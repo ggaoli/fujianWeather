@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh" class="no-js">
+<head>
+	<title>党员e家-e家天气</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<meta http-equiv="Content-Language" content="zh-cn" />
+	<meta http-equiv="Content-Type" content="application/xhtml+xml;charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="style/master.css">
+	<link rel="stylesheet" type="text/css" href="style/layout.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<script src="javascript/jquery-1.9.1.min.js"></script>
+	<script src="javascript/common.js"></script>
+	<script src="javascript/tab.exam.js"></script>
+</head>
+<body>
+<div id="layout">
+	<div class="wrapper" id="frame_wrapper">
+		<div class="header" id="frame_header" include="include.html">
+			<div class="top_tool" id="frame_top_tool" >
+				<div class="row top_row" id="data_top_tool">
+					<div class="tool_l">
+						<div class="clearfix">
+							<div class="others_info"><a href="#" target="_blank"><i class="i1 i-font"></i>党员e家首页</a></div>
+							<div class="others_info"><a href="#" target="_blank"><i class="i2 i-font"></i>掌上e家</a></div>
+						</div>
+					</div>
+					<div class="tool_r">
+						<div class="tool_others_info">
+							<div class="others_info"><a href="#" target="_blank"><i class="i4 i-font"></i>帮助中心</a></div>
+							<div class="others_info"><a href="#" target="_blank"><i class="i5 i-font"></i>网站地图</a></div>
+						</div>
+						<div class="login_info" id="data_login">
+							<div class="fleft no_login" style="display:none;">
+								<div class="login-btn">
+									<a href="#" target="_blank" class="loign_on">登录</a>
+								</div>
+								<div class="registered-btn">
+									<a href="#" target="_blank">免费注册</a>
+								</div>
+							</div>
+							<div class="top_login"  >
+								<div class="fleft">欢迎您，</div>
+								<div class="user_info drop">
+									<div class="user_name drop_nav">
+										<a href="#" target="_blank">
+											福州支部管理员<i class="drop_arrow i-font"></i>
+										</a>
+									</div>
+									<div class="user_info_list drop_con">
+										<em></em>
+										<ul>
+											<li><a href="#" target="_blank">个人中心</a></li>
+											<li><a href="#" target="_blank">我的活动</a></li>
+											<li><a href="#" target="_blank">我参与的</a></li>
+											<li><a href="#" target="_blank">我发布的</a></li>
+											<li><a href="#" target="_blank">个人设置</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="fleft"><a href="#" target="_blank">退出</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header_top" id="frame_top">
+				<div class="row clearfix" id="frame_top_row">
+					<div class="logo" id="data_logo"><a class="png" href="#" target="_blank"><h1>党员e家-福建省党员教育管理综合服务平台</h1><h2>e家天气</h2></a></div>
+					<div class="nav" id="data_nav">
+						<ul>
+							<li><a href="#">首页</a></li>
+							<li><a href="#">省内</a></li>
+						</ul>
+					</div>
+                    <div class="search" id="data_search">
+                        <form action="#" target="_blank">
+                            <input name="act" style="display:none;" value="search"/>
+                            <input name="q" class="inp" id="topsearch" type="text" placeholder="输入搜索内容" accesskey="s" title="输入搜索内容" x-webkit-speech="" x-webkit-grammar="builtin:translate" lang="zh-CN">
+                            <input type="submit" class="bt" value="">
+                        </form>
+                    </div>
+				</div>
+
+			</div>
+			<div class="row clearfix position-r" id="frame_seach_row1">
+				<div id="frame_citySearchCon"><ul id="citySearchCon"></ul></div>
+				<div id="frame_citySortCon" class="citySortCon">
+					<div class="tab-rec-1" id="mod_tab-rec-1">
+						<div class="tab">
+							<ul class="clearfix" id="citySort">
+								<li class="on"> <a href="#" >A-I</a></li>
+								<li> <a href="#" >J-R</a> </li>
+								<li> <a href="#" >S-Z</a> </li>
+							</ul>
+						</div>
+						<div class="modcon clearfix ">
+							<div id="frame_sort_dttab_con_1" style="display:block;"   >
+								<div id="data_sortCity1" class="sortCity-list">
+									<ul class="clearfix">
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+									</ul>
+
+								</div>
+							</div>
+							<div id="frame_sort_dttab_con_2" style="display:none;">
+								<div id="data_sortCity2" class="sortCity-list">
+									<ul class="clearfix">
+										<li><a>安溪1</a></li>
+										<li><a>大田1</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+									</ul>
+
+								</div>
+							</div>
+							<div id="frame_sort_dttab_con_3" style="display:none;">
+								<div id="data_sortCity3" class="sortCity-list">
+									<ul class="clearfix">
+										<li><a>安溪2</a></li>
+										<li><a>大田2</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+										<li><a>安溪</a></li>
+										<li><a>大田</a></li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="main-bg" id="frame_main_bg"  >
+
+
+			<div class="row" id="frame_main">
+				<div class="loc-bg" id="frame_row1">
+					<div class="loc-l" id="data_loc_l">
+						<div id="cityLogData">
+							<span class="loc"><a href="province.html"></a></span>
+							<span class="date"></span>
+							<span class="time"><b></b>更新 &nbsp;实况数据来源于中国气象局 </span>
+						</div>
+					</div>
+					<a href="aqi.html">
+						<div class="zhishu">
+							<div class="loc-rc" id="data_loc_rc">
+								<p>空气污染指数：</p>
+								<span class="aqi-value"></span>
+							</div>
+							<div class="aqi-box">
+								<span class="aqi-lev"></span>
+								<p class="slider_warn_map">
+									<span class="slider_warn_map_i slider_warn_map_i0 "></span>
+									<span class="slider_warn_map_i slider_warn_map_i1 "></span>
+									<span class="slider_warn_map_i slider_warn_map_i2 "></span>
+									<span class="slider_warn_map_i slider_warn_map_i3 "></span>
+									<span class="slider_warn_map_i slider_warn_map_i4 "></span>
+									<span class="slider_warn_map_i slider_warn_map_i5 "></span>
+								</p>
+							</div>
+						</div>
+					</a>
+					<div class="loc-c" id="data_loc_c">
+						<div class="sun" id="todayWeatherIcon">
+
+						</div>
+						<p id="now-weather"></p>
+						<div class="loc-c-m" id="weatherType">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="loc-r" id="data_loc_r">
+						<div class="tipmain" id="tipmain">
+							<div class="tipslider" id="tipslider">
+								<p></p>
+							</div>
+							<div class="tip0" id="tip0" onmouseover="show('tipslider')" onmouseout="hide('tipslider')" ></div>
+							<script type="text/javascript">
+								function show(obj){
+									var XS = document.getElementById(obj);
+									XS.style.display ="block";
+								}
+								function hide(obj){
+									var YC = document.getElementById(obj);
+									YC.style.display = "none";
+								}
+
+							</script>
+						</div>
+						<div class=" drop share" id="share">
+							<div class="drop tip1 drop_nav"></div>
+							<div class="article-item clearfix drop_con " id="data_article_item">
+								<div class="bdsharebuttonbox bdshare-button-style1-16" data-bd-bind="1450243853558">
+									<a href="#" class="bds_more" data-cmd="more"></a>
+									<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+									<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+									<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+									<a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+								</div>
+								<script>
+									window._bd_share_config = {
+										"common": {
+											"bdSnsKey": {},
+											"bdText": "",
+											"bdMini": "2",
+											"bdMiniList": false,
+											"bdPic": "",
+											"bdStyle": "0",
+											"bdSize": "16"
+										},
+										"share": {
+											"bdSize": 16
+										}
+									};
+									with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~ ( - new Date() / 36e5)];
+								</script>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pre-bg" id="frame_row2">
+					<div class="predict " id="mod_predict">
+						<div class="tab clearfix">
+							<div class="tabtitle png">
+								<a href="#" target="_blank">天气预报</a>
+								<span>(福州最近7天)</span>
+							</div>
+							<ul class="clearfix" id="tabPre">
+								<li class="on"  id="liebiao"><a href="#">列表</a></li>
+								<li id="qushi"><a href="#">趋势</a></li>
+							</ul>
+							<div class="tabmore"><a href="#" target="_blank"></a></div>
+						</div>
+						<div class="modcon">
+							<div id="data_tabPreCon1" style="display: block">
+								<div class="tabliebiao">
+									<ul class="clearfix" id="weatherForecast">
+									</ul>
+									<div class="slideBtn">
+										<span class="png btn-left "></span>
+										<span class="png btn-right"></span>
+									</div>
+								</div>
+							</div>
+							<div id="data_tabPreCon2" style="display: none">
+								<div id="weatherChat" style="width: 960px;height: 240px; margin: 0 auto"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix" id="frame_row3">
+					<div class="row3-l" id="frame_row3_l">
+						<div class="pre-bg mod_live" id="mod_live">
+							<div class="modhead">
+								<div class="modtitle"><a href="#" target="_blank">生活指数</a></div>
+								<div class="modmore"></div>
+							</div>
+							<div class="modcon">
+								<div class="live_list" id="data_live">
+									<ul class="clearfix" id="indexLiving">
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row3-r" id="frame_row3_r">
+						<div class="pre-bg mod_sun" id="mod_sun">
+							<div class="modhead">
+								<div class="modtitle"><a href="#" target="_blank">日出日落</a></div>
+								<div class="modmore"></div>
+							</div>
+							<div class="modcon">
+								<div class="sunrise" id="data_sun">
+									<!-- 日出日落,timepoint,表示日出时间和日落时间,以逗号分隔;currentpoint,表示当前时间点,取值类型int,取值范围0-10; -->
+									<div id="sunRiceSet">
+										<div class="sunRiceSet_c" id="sunRiceSet_c" >
+											<div class="sunRiceSet_rp" id="sunRiceSet_rp"></div>
+											<span class="sun_starrise"></span>
+											<span class="sun_starfall"></span>
+											<span class="sun_star icon_sun png" id="icon_sun"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="frame_more_js">
+			<div id="data_more_js">
+				<script src="javascript/highcharts.js"></script>
+				<script src="javascript/dark-unica.js"></script>
+				<script src="javascript/raphael-min.js"></script>
+				<script src="javascript/index.js"></script>
+				<script src="javascript/pinyin.js"></script>
+			</div>
+		</div>
+		<div class="footer clearfix" id="frame_footer" include="include.html">
+			<div id="data_copyright" class="copyright row">
+				<p>福建省党员教育管理综合服务平台</p>
+				<p>版权所有 © 2010-2016 闽ICP备10202482号-3</p>
+			</div>
+			<div id="data_javascript">
+				<!--[if IE 6]>
+					<script src="javascript/DD_belatedPNG.js"></script>
+					<script>
+						DD_belatedPNG.fix('.png');
+						DD_belatedPNG.fix('.i-font,.channel .modhead .modtitle');
+						DD_belatedPNG.fix('.sun img,.loc-bg,.pre-bg,.loc,.tip0,.tip1,#liebiao,#qushi,.on,.live-1,' +
+								'.live-2,.live-3,.live-4,.live-5,.live-6,.pre-bg,.sunrise img,.fleft img,.fright img,.tipslider,.tabliebiao ul li img,.sunRiceSet_rp');
+					</script>
+				<![endif]-->
+			</div>
+        </div>
+
+
+	</div>
+
+</div>
+<script type="text/javascript">
+    new o_tab().init( "tabPre","li","data_tabPreCon","on","",1,"" );
+</script>
+</body>
+</html>

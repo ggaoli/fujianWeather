@@ -1,0 +1,298 @@
+[
+  {
+    "cityname": "泉州",
+    "cityid": "101230501"
+  },
+  {
+    "cityname": "安溪",
+    "cityid": "101230502"
+  },
+  {
+    "cityname": "永春",
+    "cityid": "101230504"
+  },
+  {
+    "cityname": "德化",
+    "cityid": "101230505"
+  },
+  {
+    "cityname": "南安",
+    "cityid": "101230506"
+  },
+  {
+    "cityname": "崇武",
+    "cityid": "101230507"
+  },
+  {
+    "cityname": "惠安",
+    "cityid": "101230508"
+  },
+  {
+    "cityname": "晋江",
+    "cityid": "101230509"
+  },
+  {
+    "cityname": "石狮",
+    "cityid": "101230510"
+  },
+  {
+    "cityname": "南平",
+    "cityid": "101230901"
+  },
+  {
+    "cityname": "顺昌",
+    "cityid": "101230902"
+  },
+  {
+    "cityname": "光泽",
+    "cityid": "101230903"
+  },
+  {
+    "cityname": "邵武",
+    "cityid": "101230904"
+  },
+  {
+    "cityname": "武夷山",
+    "cityid": "101230905"
+  },
+  {
+    "cityname": "蒲城",
+    "cityid": "101230906"
+  },
+  {
+    "cityname": "建阳",
+    "cityid": "101230907"
+  },
+  {
+    "cityname": "松溪",
+    "cityid": "101230908"
+  },
+  {
+    "cityname": "政和",
+    "cityid": "101230909"
+  },
+  {
+    "cityname": "建瓯",
+    "cityid": "101230910"
+  },
+  {
+    "cityname": "三明",
+    "cityid": "101230801"
+  },
+  {
+    "cityname": "宁化",
+    "cityid": "101230802"
+  },
+  {
+    "cityname": "清流",
+    "cityid": "101230803"
+  },
+  {
+    "cityname": "泰宁",
+    "cityid": "101230804"
+  },
+  {
+    "cityname": "将乐",
+    "cityid": "101230805"
+  },
+  {
+    "cityname": "建宁",
+    "cityid": "101230806"
+  },
+  {
+    "cityname": "明溪",
+    "cityid": "101230807"
+  },
+  {
+    "cityname": "沙县",
+    "cityid": "101230808"
+  },
+  {
+    "cityname": "尤溪",
+    "cityid": "101230809"
+  },
+  {
+    "cityname": "永安",
+    "cityid": "101230810"
+  },
+  {
+    "cityname": "大田",
+    "cityid": "101230811"
+  },
+  {
+    "cityname": "宁德",
+    "cityid": "101230301"
+  },
+  {
+    "cityname": "古田",
+    "cityid": "101230302"
+  },
+  {
+    "cityname": "霞浦",
+    "cityid": "101230303"
+  },
+  {
+    "cityname": "寿宁",
+    "cityid": "101230304"
+  },
+  {
+    "cityname": "周宁",
+    "cityid": "101230305"
+  },
+  {
+    "cityname": "福安",
+    "cityid": "101230306"
+  },
+  {
+    "cityname": "柘荣",
+    "cityid": "101230307"
+  },
+  {
+    "cityname": "福鼎",
+    "cityid": "101230308"
+  },
+  {
+    "cityname": "平南",
+    "cityid": "101230309"
+  },
+  {
+    "cityname": "龙岩",
+    "cityid": "101230701"
+  },
+  {
+    "cityname": "长汀",
+    "cityid": "101230702"
+  },
+  {
+    "cityname": "连城",
+    "cityid": "101230703"
+  },
+  {
+    "cityname": "武平",
+    "cityid": "101230704"
+  },
+  {
+    "cityname": "上杭",
+    "cityid": "101230705"
+  },
+  {
+    "cityname": "永定",
+    "cityid": "101230706"
+  },
+  {
+    "cityname": "漳平",
+    "cityid": "101230707"
+  },
+  {
+    "cityname": "莆田",
+    "cityid": "101230401"
+  },
+  {
+    "cityname": "仙游",
+    "cityid": "101230402"
+  },
+  {
+    "cityname": "秀屿港",
+    "cityid": "101230403"
+  },
+  {
+    "cityname": "涵江",
+    "cityid": "101230404"
+  },
+  {
+    "cityname": "秀屿",
+    "cityid": "101230405"
+  },
+  {
+    "cityname": "荔城",
+    "cityid": "101230406"
+  },
+  {
+    "cityname": "城厢",
+    "cityid": "101230407"
+  },
+  {
+    "cityname": "漳州",
+    "cityid": "101230601"
+  },
+  {
+    "cityname": "长泰",
+    "cityid": "101230602"
+  },
+  {
+    "cityname": "南靖",
+    "cityid": "101230603"
+  },
+  {
+    "cityname": "平和",
+    "cityid": "101230604"
+  },
+  {
+    "cityname": "龙海",
+    "cityid": "101230605"
+  },
+  {
+    "cityname": "漳浦",
+    "cityid": "101230606"
+  },
+  {
+    "cityname": "诏安",
+    "cityid": "101230607"
+  },
+  {
+    "cityname": "东山",
+    "cityid": "101230608"
+  },
+  {
+    "cityname": "云霄",
+    "cityid": "101230609"
+  },
+  {
+    "cityname": "华安",
+    "cityid": "101230610"
+  },
+  {
+    "cityname": "厦门",
+    "cityid": "101230201"
+  },
+  {
+    "cityname": "同安",
+    "cityid": "101230202"
+  },
+  {
+    "cityname": "福州",
+    "cityid": "101230101"
+  },
+  {
+    "cityname": "闽清",
+    "cityid": "101230102"
+  },
+  {
+    "cityname": "闽侯",
+    "cityid": "101230103"
+  },
+  {
+    "cityname": "罗源",
+    "cityid": "101230104"
+  },
+  {
+    "cityname": "连江",
+    "cityid": "101230105"
+  },
+  {
+    "cityname": "永泰",
+    "cityid": "101230107"
+  },
+  {
+    "cityname": "平潭",
+    "cityid": "101230108"
+  },
+  {
+    "cityname": "长乐",
+    "cityid": "101230110"
+  },
+  {
+    "cityname": "福清",
+    "cityid": "101230111"
+  }
+]

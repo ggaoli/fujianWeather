@@ -1,0 +1,330 @@
+@charset "UTF-8";
+.wrapper {
+  background: #f3f3f3; }
+
+.main-api {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 20px; }
+
+.api-l {
+  width: 260px;
+  float: left; }
+
+.api-r {
+  width: 720px;
+  float: right; }
+
+.api-loc-l {
+  padding: 20px;
+  background: #76B3E9; }
+  .api-loc-l span {
+    display: block;
+    color: #FFFFFF; }
+  .api-loc-l .loc {
+    display: inline-block;
+    font-size: 26px;
+    background: url(../images/loc.png) no-repeat right center;
+    padding-right: 28px;
+    width: 55px; }
+    .api-loc-l .loc a {
+      color: white; }
+
+.api-num-box {
+  padding: 30px 20px;
+  background: #CCE4EE;
+  height: 59px;
+  position: relative; }
+  .api-num-box span {
+    color: #FFFFFF; }
+  .api-num-box .fontsize14 {
+    font-size: 14px; }
+  .api-num-box .fontsize44 {
+    font-size: 44px; }
+  .api-num-box .share {
+    float: right;
+    margin-top: 20px;
+    height: 50px; }
+    .api-num-box .share .share-box {
+      position: absolute;
+      left: 248px;
+      width: 154px;
+      z-index: 100;
+      top: 45px;
+      border: solid #dddddd 1px;
+      background: #fff;
+      display: none; }
+    .api-num-box .share .fenxiang {
+      height: 20px;
+      text-align: center;
+      border-radius: 2px;
+      background: url(../images/share.png) no-repeat 6px center #FFFFFF;
+      padding-left: 26px;
+      padding-right: 10px;
+      line-height: 20px;
+      display: block;
+      width: 28px; }
+
+.api-l table tr td {
+  color: #fff;
+  font-size: 14px;
+  width: 130px;
+  background: #76B3E9;
+  text-align: center;
+  border-bottom: #E1E1E1 1px solid;
+  border-right: #E1E1E1 1px solid;
+  height: 30px;
+  line-height: 30px; }
+
+.modhead {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px; }
+
+.modtitle {
+  float: left;
+  font-size: 16px;
+  border-bottom: 1px solid #f3f3f3;
+  width: 100%; }
+  .modtitle a {
+    color: #2498FF;
+    line-height: 40px; }
+
+.aqi-box {
+  background: #FFFFFF; }
+
+.cityaqi-box {
+  background: #fff;
+  margin-top: 20px; }
+
+.cityinfo p {
+  font-size: 12px;
+  float: left;
+  line-height: 30px; }
+
+.cityinfo span {
+  font-size: 12px;
+  float: right;
+  padding-left: 15px;
+  line-height: 30px; }
+
+.api-row3-l {
+  float: left;
+  width: 490px;
+  background: #FFFFFF;
+  margin-top: 20px; }
+
+.api-row3-r {
+  float: right;
+  width: 490px;
+  background: #FFFFFF;
+  margin-top: 20px; }
+
+.rank-box table {
+  width: 450px; }
+
+.rank-box table tr td {
+  width: 25%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center; }
+
+.rank-box .table-title td {
+  background: #f1f1f1;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px; }
+
+.rank-box tr.bg {
+  background: #fcfbfb; }
+
+.rank-box table tr td.rank1 {
+  background: url(../images/rank1.png) no-repeat center center;
+  color: #FFFFFF; }
+
+.rank-box table tr td.rank2 {
+  background: url(../images/rank2.png) no-repeat center center;
+  color: #FFFFFF; }
+
+.rank-box table tr td.rank3 {
+  background: url(../images/rank3.png) no-repeat center center;
+  color: #FFFFFF; }
+
+.rank-box table tr td.rank4 {
+  background: url(../images/rank4.png) no-repeat center center; }
+
+.ranktitle-box {
+  padding: 0 20px; }
+
+.rank-box {
+  padding: 0 20px 20px 20px; }
+
+.ranktitle-l {
+  float: left;
+  font-size: 16px;
+  color: #2498FF;
+  height: 40px;
+  line-height: 40px; }
+
+.ranktitle-r {
+  float: right;
+  height: 40px;
+  line-height: 40px; }
+
+.ranktitle-r select {
+  width: 70px;
+  height: 24px;
+  text-align: center;
+  border: #F3F3F3 1px solid; }
+
+/*表格展示长宽*/
+.e_chart {
+  margin: 10px auto 0; }
+
+.e_chart_con {
+  margin: 0 auto 20px;
+  width: 720px;
+  height: 247px; }
+
+.cityaqi {
+  height: 680px;
+  background: url(../images/cityaqi-bg.jpg) no-repeat center center; }
+  .cityaqi ul {
+    position: relative; }
+    .cityaqi ul li {
+      position: absolute;
+      padding: 5px 10px;
+      color: white;
+      opacity: .85;
+      border-radius: 3px;
+      cursor: pointer; }
+      .cityaqi ul li:hover {
+        opacity: 1; }
+      .cityaqi ul li#nanping {
+        top: 200px;
+        left: 476px; }
+      .cityaqi ul li#sanming {
+        top: 310px;
+        left: 376px; }
+      .cityaqi ul li#longyan {
+        top: 416px;
+        left: 348px; }
+      .cityaqi ul li#ningde {
+        top: 197px;
+        left: 591px; }
+      .cityaqi ul li#fuzhou {
+        top: 295px;
+        left: 591px; }
+      .cityaqi ul li#putian {
+        top: 395px;
+        left: 557px; }
+      .cityaqi ul li#quanzhou {
+        top: 465px;
+        left: 528px; }
+      .cityaqi ul li#xiamen {
+        top: 506px;
+        left: 506px; }
+      .cityaqi ul li#zhangzhou {
+        top: 516px;
+        left: 389px; }
+      .cityaqi ul li#pingtan {
+        top: 371px;
+        left: 705px; }
+
+.color-1 {
+  background: #63D416; }
+
+.color-2 {
+  background: #FFCC00; }
+
+.color-3 {
+  background: #FF8A00; }
+
+.color-4 {
+  background: #F7000C; }
+
+.color-5 {
+  background: #90024C; }
+
+.color-6 {
+  background: #600031; }
+
+.bottom-bg {
+  padding: 5px 20px 15px;
+  width: 680px; }
+  .bottom-bg ul {
+    width: 700px; }
+    .bottom-bg ul li {
+      float: left;
+      margin-right: 15px;
+      display: inline-block;
+      cursor: help;
+      position: relative; }
+      .bottom-bg ul li span {
+        display: inline-block; }
+        .bottom-bg ul li span.des {
+          font-size: 15px;
+          line-height: 25px;
+          height: 25px;
+          font-family: "微软雅黑", "Lucida Grande", Tahoma, serif;
+          vertical-align: top; }
+        .bottom-bg ul li span.col-box {
+          border-radius: 3px;
+          width: 50px;
+          height: 25px; }
+      .bottom-bg ul li .lev-detail {
+        position: absolute;
+        padding: 10px;
+        background: #edf7fb;
+        border: 1px solid #95d9fb;
+        bottom: 45px;
+        width: 220px;
+        display: none; }
+        .bottom-bg ul li .lev-detail .title {
+          color: #666;
+          font-size: 14px;
+          font-family: "微软雅黑", "Lucida Grande", Tahoma, serif; }
+          .bottom-bg ul li .lev-detail .title b {
+            font-weight: normal;
+            font-size: 14px;
+            color: #666;
+            line-height: 20px;
+            display: block; }
+          .bottom-bg ul li .lev-detail .title span {
+            display: block;
+            line-height: 25px; }
+        .bottom-bg ul li .lev-detail div.des {
+          font-size: 14px;
+          color: #666;
+          font-family: "微软雅黑", "宋体", "Arial Unicode MS", "Times New Roman", serif;
+          line-height: 25px; }
+        .bottom-bg ul li .lev-detail div.arrow {
+          background: url(../images/arr.png) no-repeat;
+          width: 14px;
+          height: 13px;
+          display: block;
+          position: absolute;
+          bottom: -13px; }
+      .bottom-bg ul li .detail-1 div.arrow {
+        left: 33px; }
+      .bottom-bg ul li .detail-2 div.arrow {
+        left: 37px; }
+      .bottom-bg ul li .detail-3 {
+        left: 30px; }
+        .bottom-bg ul li .detail-3 div.arrow {
+          left: 50px; }
+      .bottom-bg ul li .detail-4 {
+        left: 46px; }
+        .bottom-bg ul li .detail-4 div.arrow {
+          left: 33px; }
+      .bottom-bg ul li .detail-5 {
+        right: -30px; }
+        .bottom-bg ul li .detail-5 div.arrow {
+          right: 46px; }
+      .bottom-bg ul li .detail-6 {
+        right: 0; }
+        .bottom-bg ul li .detail-6 div.arrow {
+          right: 18px; }
+
+/*# sourceMappingURL=aqi.css.map */
